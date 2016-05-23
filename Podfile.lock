@@ -1,0 +1,28 @@
+PODS:
+  - CSStickyHeaderFlowLayout (0.2.10)
+  - MJExtension (3.0.10)
+  - MJRefresh (3.1.0)
+  - REFormattedNumberField (1.1.6)
+  - REMenu (1.10)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+
+DEPENDENCIES:
+  - CSStickyHeaderFlowLayout
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.0)
+  - REMenu (~> 1.10)
+  - RETableViewManager (~> 1.7)
+
+SPEC CHECKSUMS:
+  CSStickyHeaderFlowLayout: 5366582779d8b7c9ba9b9cc729c218cc23888776
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+
+COCOAPODS: 0.39.0

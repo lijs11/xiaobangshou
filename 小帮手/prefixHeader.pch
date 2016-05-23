@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  网易新闻瀑布流
+//
+//  Created by Kenny.li on 16/3/8.
+//  Copyright (c) 2016年 KK. All rights reserved.
+// $(SRCROOT)/蘑菇街瀑布流Tests/PrefixHeader.pch
+
+#import <UIKit/UIKit.h>
+
+#ifndef ________PrefixHeader_pch
+#define ________PrefixHeader_pch
+
+
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIColor+CreateImage.h"
+#import "MJExtension.h"
+#import "MBProgressHUD+MJ.h"
+
+
+#define BaiduApikey @"b4fc2e9e0108e997e5292f25b64e8827"
+#define BaiduApikey2 @"eda6ce962ac9df0f94e3d15ac5d552d9"
+#define baidukey @"Q0qFFiynCewS75iBPQ9TkChH"
+
+#define HaoSerViceKey @"88605828845c48cc93eaca658e15f226"
+
+#define LocatedTool_GetCityNotification @"LocatedTool_GetCityNotification"
+
+//屏幕尺寸
+#define HMScreenW [UIScreen mainScreen].bounds.size.width
+#define HMScreenH [UIScreen mainScreen].bounds.size.height
+//颜色
+#define HMColor(r,g,b,h) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:h]
+
+//随机色
+#define HMRandomColor   HMColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256),1)
+#define HMRandomColorRGBA(a)   HMColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256),a)
+
+#ifdef DEBUG  //DEBUG状态
+#define NSLogg(...) NSLog(__VA_ARGS__)
+#else //发布状态
+#define NSLoggg(...)
+#endif
+
+//是否大于IOS7
+#define IOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0 )
+
+
+#endif
