@@ -1,5 +1,5 @@
 # xiaobangshou
-小帮手，查询，新闻，娱乐于一体。创意非原创。项目是重写的，整体不太协调，没有时间去搞美化。
+小帮手，查询，新闻，娱乐于一体。创意非原创。项目是重写的，整体不太协调，没有美化。
 
 
 ![ABC](https://github.com/lijs11/xiaobangshou/blob/master/%E5%B0%8F%E5%B8%AE%E6%89%8B/Other/screen/xiaoshushou.gif)    
